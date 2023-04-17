@@ -10,6 +10,31 @@ body {
     height: 25%;
 }
 
+.item2 {
+    text-decoration: black underline;
+    padding: 24px;
+    width: auto;
+    height: 25%;
+    text-underline-offset: 0.3em;
+}
+
+.item3 {
+    text-decoration: black underline;
+    padding: 22px;
+    width: auto;
+    height: 25%;
+    text-underline-offset: 0.3em;
+}
+
+#price {
+    text-decoration: underline pink;
+    color: #EFE3D0;
+    font-size: 36px;
+    text-underline-offset: 0.1em;
+    margin-bottom: 54px;
+
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -37,6 +62,10 @@ h2 {
     text-decoration-line: underline;
     margin: 14px;
     align-items: start;
+}
+
+button {
+    display: flex;
 }
 
 /* emblem edits */

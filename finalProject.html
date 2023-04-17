@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="finalProject.css">
     <title>Store</title>
+    <script src="store.js" async></script>
 </head>
 
 <body>
@@ -34,7 +35,35 @@
                 id="shoes">
         </div>
         <div class="item2">
+            <p>1 Tie Cost</p>
+            <p id="price">$19.99 </p>
+            <p>1 Button Up Shirt Cost</p>
+            <p id="price">$24.99 </p>
+            <p>1 Coat/Slack Cost</p>
+            <p id="price">$99.99 </p>
+            <p>1 Pair Dress Shoes Cost</p>
+            <p id="price">$24.99 </p>
+        </div>
+        <div class="item3">
+            <h3>Quantity</h3>
+            <button type="button" onclick="addToCart(19.99)">Add</button><button type="button"
+                onclick="removeFromCart(19.99)">Remove</button>
+            <br>
+            <button type="button" onclick="addToCart(24.99)">Add</button><button type="button"
+                onclick="removeFromCart(24.99)">Remove</button>
+            <br>
+            <button type="button" onclick="addToCart(99.99)">Add</button><button type="button"
+                onclick="removeFromCart(99.99)">Remove</button>
+            <br>
+            <button type="button" onclick="addToCart(24.99)">Add</button><button type="button"
+                onclick="removeFromCart(24.99)">Remove</button>
 
+
+        </div>
+        <div class="item4">
+            <h2>Cart</h2>
+            <p>Items: <span id="itemCount">0</span></p>
+            <p>Total price: $<span id="totalPrice">0</span></p>
         </div>
     </div>
 </body>
