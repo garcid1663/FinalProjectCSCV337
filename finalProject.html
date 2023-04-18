@@ -19,8 +19,9 @@
         </h1>
         <img src="suit.png" id="suit">
     </div>
+    <h2>Shopping-Cart</h2>
     <div class="container">
-        <h2>Shopping-Cart</h2>
+
         <div class="item1">
             <p>Neck Tie</p>
             <img src="https://i.etsystatic.com/12526779/r/il/6f712a/1629014104/il_794xN.1629014104_7qfr.jpg" id="tie">
@@ -45,18 +46,18 @@
             <p id="price">$24.99 </p>
         </div>
         <div class="item3">
-            <h3>Quantity</h3>
-            <button type="button" onclick="addToCart(19.99)">Add</button><button type="button"
+            <p>Quantity</p>
+            <button type="button" onclick="addToCart(19.99)" id="add-tie">Add Tie</button><button type="button"
                 onclick="removeFromCart(19.99)">Remove</button>
             <br>
-            <button type="button" onclick="addToCart(24.99)">Add</button><button type="button"
-                onclick="removeFromCart(24.99)">Remove</button>
+            <button type="button" onclick="addToCart(24.99)" id="add-shirt">Add Under Shirt</button><button
+                type="button" onclick="removeFromCart(24.99)">Remove</button>
             <br>
-            <button type="button" onclick="addToCart(99.99)">Add</button><button type="button"
-                onclick="removeFromCart(99.99)">Remove</button>
+            <button type="button" onclick="addToCart(99.99)" id="add-coatslack">Add Coat/Slacks</button><button
+                type="button" onclick="removeFromCart(99.99)">Remove</button>
             <br>
-            <button type="button" onclick="addToCart(24.99)">Add</button><button type="button"
-                onclick="removeFromCart(24.99)">Remove</button>
+            <button type="button" onclick="addToCart(24.99)" id="add-shoes">Add Dress Shoes</button><button
+                type="button" onclick="removeFromCart(24.99)">Remove</button>
 
 
         </div>
@@ -64,6 +65,7 @@
             <h2>Cart</h2>
             <p>Items: <span id="itemCount">0</span></p>
             <p>Total price: $<span id="totalPrice">0</span></p>
+            <button type="button"> Checkout </button>
         </div>
     </div>
     <script src="store.js" async></script>
