@@ -1,6 +1,18 @@
+html {
+    background-image: url(https://wallpapercave.com/wp/wp2090574.jpg);
+    background-size: cover;
+}
+
+html,
+body {
+    height: 100%;
+}
+
 body {
     background-color: slategrey;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 70%;
+    align-content: start;
 }
 
 .item1 {
@@ -8,6 +20,36 @@ body {
     padding: 24px;
     width: auto;
     height: 25%;
+}
+
+.item2 {
+    text-decoration: black underline;
+    padding: 24px;
+    width: auto;
+    height: 25%;
+    text-underline-offset: 0.3em;
+}
+
+.item3 {
+    text-decoration: black underline;
+    padding: 22px;
+    width: auto;
+    height: 25%;
+    text-underline-offset: 0.3em;
+}
+
+.item4 {
+    text-align: right;
+    align-items: right;
+}
+
+#price {
+    text-decoration: underline pink;
+    color: #EFE3D0;
+    font-size: 36px;
+    text-underline-offset: 0.1em;
+    margin-bottom: 54px;
+
 }
 
 .container {
@@ -18,7 +60,7 @@ body {
 
 .start {
     display: flex;
-    border-style: solid;
+    border-bottom: #EFE3D0 solid;
     justify-content: space-between;
     background-color: slategray;
     padding-right: 12px;
@@ -37,6 +79,10 @@ h2 {
     text-decoration-line: underline;
     margin: 14px;
     align-items: start;
+}
+
+button {
+    display: flex;
 }
 
 /* emblem edits */
