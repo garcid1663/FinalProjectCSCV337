@@ -39,8 +39,9 @@ body {
 }
 
 .item4 {
-    text-align: right;
-    align-items: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 #price {
@@ -56,6 +57,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: start;
+    justify-content: space-around;
 }
 
 .start {
@@ -79,10 +81,32 @@ h2 {
     text-decoration-line: underline;
     margin: 14px;
     align-items: start;
+    flex-direction: column;
 }
+
+/* button edits */
 
 button {
     display: flex;
+    color: brown;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+#add-tie {
+    margin-top: 40px;
+}
+
+#add-shirt {
+    margin-top: 96px;
+}
+
+#add-coatslack {
+    margin-top: 94px;
+}
+
+#add-shoes {
+    margin-top: 82px;
 }
 
 /* emblem edits */
